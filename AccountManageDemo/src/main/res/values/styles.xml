@@ -10,9 +10,9 @@
 
     <!-- Base activity theme. -->
     <style name="MainAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">#2196f3</item>
-        <item name="colorPrimaryDark">#2196f3</item>
-        <item name="colorAccent">#2196f3</item>
+        <item name="colorPrimary">#348474</item>
+        <item name="colorPrimaryDark">#348474</item>
+        <item name="colorAccent">#348474</item>
     </style>
 
     <!-- 全屏主题 -->
@@ -38,7 +38,7 @@
     <!-- TextInputLayout主题 -->
     <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
-        <item name="colorControlActivated">#2196f3</item>
+        <item name="colorControlActivated">@color/colorAll</item>
     </style>
 
 </resources>

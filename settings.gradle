@@ -1,1 +1,1 @@
-include ':AccountManageDemo', ':MP3Demo'
+include ':AccountManageDemo', ':MP3Demo', ':contentapp'

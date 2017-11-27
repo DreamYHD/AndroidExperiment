@@ -47,9 +47,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:hint="请输入注册账号"
+                android:hint="@string/enter_regist_str"
                 android:maxLines="1"
-                android:textColorHint="#9dd1ee"
+                android:textColorHint="@color/colorAll"
                 android:textSize="20sp"/>
 
         </android.support.design.widget.TextInputLayout>
@@ -67,9 +67,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:hint="请输入绑定邮箱"
+                android:hint="@string/bind_email_str"
                 android:maxLines="1"
-                android:textColorHint="#9dd1ee"
+                android:textColorHint="@color/colorAll"
                 android:textSize="20sp"/>
 
         </android.support.design.widget.TextInputLayout>
@@ -83,7 +83,7 @@
             android:layout_marginRight="50dp"
             android:layout_marginTop="50dp"
             android:background="@drawable/button_bg"
-            android:text="点击发送邮件"
+            android:text="@string/click_send_str"
             android:textColor="@android:color/white"
             android:textSize="20sp"/>
 

@@ -3,6 +3,7 @@ package com.example.guohouxiao.accountmanagedemo.ui;
 import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -60,14 +61,16 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
+    }
+    @Override
+    protected void onStart() {
+        super.onStart();
     }
 
     private void initView() {
-
         btn_insert = findViewById(R.id.btn_insert);
-        btn_delete = findViewById(R.id.btn_delete);
+            btn_delete = findViewById(R.id.btn_delete);
         btn_update = findViewById(R.id.btn_update);
         btn_query = findViewById(R.id.btn_query);
 
@@ -88,7 +91,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_insert:
-                showInsertDialog();
+                Intent intent = new Intent(this,RegisterActivity.class);
+                startActivity(intent);
+                //showInsertDialog();
                 break;
             case R.id.btn_delete:
                 showDeleteDialog();

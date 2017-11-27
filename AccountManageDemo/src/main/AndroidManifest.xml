@@ -37,6 +37,11 @@
             android:name=".ui.RegisterActivity"
             android:label=""
             android:theme="@style/MainAppTheme"/>
+        <provider
+            android:enabled="true"
+            android:exported="true"
+            android:authorities="com.example.guohouxiao.accountmanagedemo.contentProvider.MyProvider"
+            android:name=".contentProvider.MyProvider"/>
 
     </application>
 

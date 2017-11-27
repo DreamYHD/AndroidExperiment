@@ -112,6 +112,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                     contentValues.put(Config.BIRTHDAY, birthday);
                     if (userDao.insertData(contentValues)) {
                         ShowToast.showShortToast(this, "注册成功！");
+                        this.finish();
                     } else {
                         ShowToast.showShortToast(this, "注册失败！");
                     }
