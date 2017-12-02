@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AccountManageDemo</string>
+    <string name="app_name">作业1</string>
     <string name="login_str">登录</string>
     <string name="user_str">账号：</string>
     <string name="please_str">请输入用户名</string>
